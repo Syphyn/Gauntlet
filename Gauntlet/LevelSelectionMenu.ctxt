@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=LevelSelectionMenu
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ LevelSelection\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=LevelSelectionMenu()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ LevelSelection.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ drawBackground()
+comment2.text=\r\n\ Draws\ the\ background\r\n
+comment3.params=
+comment3.target=void\ setButtons()
+comment3.text=\r\n\ Setup\ buttons\r\n
+comment4.params=stage
+comment4.target=void\ startStage(GameWorld)
+comment4.text=\r\n\ Starts\ a\ level\r\n
+comment5.params=
+comment5.target=void\ update()
+comment5.text=\r\n\ Called\ every\ Options.INTERVAL,\ smooth\r\n
+comment6.params=
+comment6.target=void\ prepare()
+numComments=7

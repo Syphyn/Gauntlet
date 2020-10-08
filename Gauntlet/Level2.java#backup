@@ -1,0 +1,40 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Room here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Level2 extends Room
+{
+    /**
+     * Constructor
+     */
+    public Level2()
+    {
+        super();
+        drawBackground();
+        Global.scorching.playLoop();
+    }
+
+    /**
+     * Count down time
+     */
+    public void update()
+    {
+        super.update();
+        countDown();
+    }
+
+    /**
+     * Draws background
+     */
+    public void drawBackground()
+    {
+        GreenfootImage background = new GreenfootImage(Options.WIDTH, Options.HEIGHT);
+        background.setColor(new Color(45, 48, 71));
+        background.fill();
+        setBackground(background);
+    }
+}

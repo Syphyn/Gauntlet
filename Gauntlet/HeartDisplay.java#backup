@@ -1,0 +1,81 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.util.*;
+
+/**
+ * Write a description of class Health here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class HeartDisplay extends GameActor
+{
+    private DamageActor target;
+    private int maxHealth;
+    private int prevHealth;
+    private ArrayList<DisplayPlayer> hearts = new ArrayList<DisplayPlayer>();
+
+    public HeartDisplay(DamageActor target, int maxHealth)
+    {
+        super();
+        this.target = target;
+
+        for (int i = 0; i < maxHealth; i += 2)
+        {
+            DisplayPlayer heart = new DisplayPlayer(this);
+            heart.add("full", "Heart", 32, 32, 0, 0);
+            heart.add("half", "Heart", 32, 32, 1, 1);
+            heart.add("empty", "Heart", 32, 32, 2, 2);
+            addPlayer(heart);
+            hearts.add(heart);
+        }
+        this.maxHealth = maxHealth;
+        prevHealth = target.getHealth();
+    }
+
+    public void update()
+    {
+        super.update();
+        checkHearts();
+        drawHearts();
+    }
+
+    public void checkHearts()
+    {
+        if (target.getHealth() < prevHealth)
+        {
+            if (target.getHealth() % 2 == 0)
+            {
+                for (int i = 0; i < 5; i++)
+                    ((GameWorld) getWorld()).freeAddObject(new HeartParticle(), getX() + (target.getHealth() + 1) * Options.HEART_SPACING, getY());
+            }
+            else
+            {
+                for (int i = 0; i < 5; i++)
+                    ((GameWorld) getWorld()).freeAddObject(new HeartParticle(), getX() + target.getHealth() * Options.HEART_SPACING, getY());
+            }
+        }
+        else if (target.getHealth() > prevHealth)
+        {
+        }
+
+        prevHealth = target.getHealth();
+    }
+
+    public void drawHearts()
+    {
+        for (int i = 0; i < maxHealth; i += 2)
+        {
+            DisplayPlayer heart = hearts.get(i / 2);
+            heart.setOffset(i * Options.HEART_SPACING, 0);
+            if (i < target.getHealth())
+            {
+                if (i + 1 == target.getHealth())
+                    heart.play("half", false, 0);
+                else
+                    heart.play("full", false, 0);
+            }
+            else
+                heart.play("empty", false, 0);
+        }
+    }
+}

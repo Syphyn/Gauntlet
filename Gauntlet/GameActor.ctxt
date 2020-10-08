@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=GameActor
+comment0.text=\r\n\ All\ objects\ that\ are\ considered\ game\ actors\ are\ objects\ that\ are\ in\ game\ and\ are\ not\ just\ to\ help\ game\ actor\r\n\ \r\n\ @author\ Duy\ Pham\r\n\ @version\ 1-23-17\r\n
+comment1.params=
+comment1.target=GameActor()
+comment1.text=\r\n\ Constructor\r\n
+comment2.params=
+comment2.target=void\ start()
+comment3.params=
+comment3.target=GameActor\ copy()
+numComments=4

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=SolidPlayer
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ SolidPlayer\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=parent\ group\ mask
+comment1.target=SolidPlayer(ExtendedActor,\ java.lang.String,\ java.util.ArrayList)
+comment2.params=parent\ group\ mask
+comment2.target=SolidPlayer(ExtendedActor,\ java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=void\ change()
+comment3.text=\r\n\ Is\ called\ whenever\ a\ frame\ changes\r\n\ Detects\ and\ unclips\ any\ collisions\ that\ result\ out\ of\ an\ expanding\ hitbox\r\n
+comment4.params=
+comment4.target=void\ unclipSpiral()
+comment4.text=\r\n\ Brute\ force\ unclip.\ Searches\ in\ a\ spiral,\ whichever\ x\ and\ y\ value\ doesn't\ colide\ is\ the\ new\ x\ and\ y\ position\r\n
+numComments=5

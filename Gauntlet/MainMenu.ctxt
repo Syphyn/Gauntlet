@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=MainMenu
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MenuWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=MainMenu()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MenuWorld.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ start()
+comment3.params=
+comment3.target=void\ drawBackground()
+comment3.text=\r\n\ Draws\ the\ background\r\n
+comment4.params=
+comment4.target=void\ setButtons()
+comment4.text=\r\n\ Setup\ buttons\r\n
+comment5.params=
+comment5.target=void\ update()
+comment5.text=\r\n\ Run\ every\ Options.INTERVAL,\ default\ is\ 60fps\r\n
+comment6.params=
+comment6.target=void\ prepare()
+comment6.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\r\n\ That\ is\:\ create\ the\ initial\ objects\ and\ add\ them\ to\ the\ world.\r\n
+numComments=7

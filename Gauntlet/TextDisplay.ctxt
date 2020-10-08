@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=TextDisplay
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Health\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=width\ height\ x\ y\ bgColor\ textColor\ text
+comment1.target=TextDisplay(int,\ int,\ int,\ int,\ greenfoot.Color,\ greenfoot.Color,\ java.lang.String)
+numComments=2

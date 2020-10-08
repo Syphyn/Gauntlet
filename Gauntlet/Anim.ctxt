@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Anim
+comment0.text=\r\n\ Frames\ for\ an\ animation\r\n\ \r\n\ @author\ Duy\ Pham\r\n\ @version\ 1-14-17\r\n
+comment1.params=path\ dimX\ dimY\ start\ end
+comment1.target=Anim(java.lang.String,\ int,\ int,\ int,\ int)
+comment2.params=path\ start\ end
+comment2.target=Anim(java.lang.String,\ int,\ int)
+comment3.params=images
+comment3.target=Anim(java.util.ArrayList)
+comment4.params=
+comment4.target=java.util.ArrayList\ getImages()
+comment5.params=frame\ flipH\ flipV\ style
+comment5.target=greenfoot.GreenfootImage\ getSprite(int,\ boolean,\ boolean,\ Style)
+numComments=6

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=AnimReader
+comment0.text=\r\n\ Useful\ file\ functions\ such\ as\ reading\ an\ animation\ folder\r\n\ \r\n\ @author\ Duy\ Pham\r\n\ @version\ 1-14-17\r\n
+comment1.params=path\ dimX\ dimY\ start\ end
+comment1.target=java.util.ArrayList\ readAnim(java.lang.String,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Import\ an\ animation\ file.\r\n\ An\ animation\ file\ is\ a\ folder\ containing\ images/frames\ of\ an\ animation.\r\n\ It\ returns\ a\ list\ of\ these\ images\ as\ an\ ArrayList\ of\ GreenfootImages.\r\n
+comment2.params=path\ start\ end
+comment2.target=java.util.ArrayList\ readAnim(java.lang.String,\ int,\ int)
+comment2.text=\r\n\ Import\ an\ animation\ file.\r\n\ An\ animation\ file\ is\ a\ folder\ containing\ images/frames\ of\ an\ animation.\r\n\ It\ returns\ a\ list\ of\ these\ images\ as\ an\ ArrayList\ of\ GreenfootImages.\r\n
+numComments=3

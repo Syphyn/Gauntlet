@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Leaderboard
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ LevelSelection\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Leaderboard()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ LevelSelection.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ refreshScores()
+comment2.text=\r\n\ Refreshes\ names\ and\ scores\ list\ with\ the\ leaderboard\ file\r\n
+comment3.params=
+comment3.target=void\ drawBackground()
+comment3.text=\r\n\ Draws\ backgorund\r\n
+comment4.params=
+comment4.target=void\ update()
+comment4.text=\r\n\ Smooth\ update\r\n
+numComments=5

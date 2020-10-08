@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=DamageActor
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ DamageActor\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=invulTime
+comment1.target=void\ setInvulTime(long)
+comment2.params=
+comment2.target=boolean\ getInvul()
+comment3.params=xPos\ yPos\ health
+comment3.target=void\ hurt(int,\ int,\ int)
+comment4.params=
+comment4.target=void\ stun()
+comment5.params=
+comment5.target=void\ update()
+comment6.params=xPos\ yPos
+comment6.target=void\ die(int,\ int)
+comment7.params=health
+comment7.target=void\ setHealth(int)
+comment8.params=
+comment8.target=int\ getHealth()
+numComments=9

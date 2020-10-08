@@ -1,0 +1,230 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.util.*;
+
+/**
+ * Write a description of class Level1 here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Room1 extends Level1
+{
+    public Room1()
+    {
+        super();
+    }
+
+    public void update()
+    {
+        super.update();
+        if (!getObjects(Player.class).isEmpty())
+        {
+            Player player = getObjects(Player.class).get(0);
+            if (player.getTrueX() > Options.WIDTH - 2)
+            {
+                Room2 room = new Room2();
+                switchRoom(room, player, 2, player.getTrueY());
+            }
+        }
+    }
+
+    public void prepare()
+    {
+        Block block = new Block();
+        addObject(block,12,583);
+        Block block2 = new Block();
+        addObject(block2,9,553);
+        Block block3 = new Block();
+        addObject(block3,10,525);
+        Block block4 = new Block();
+        addObject(block4,14,493);
+        Block block5 = new Block();
+        addObject(block5,13,457);
+        Block block6 = new Block();
+        addObject(block6,8,426);
+        Block block7 = new Block();
+        addObject(block7,11,374);
+        Block block8 = new Block();
+        addObject(block8,15,394);
+        Block block9 = new Block();
+        addObject(block9,17,327);
+        Block block10 = new Block();
+        addObject(block10,17,291);
+        Block block11 = new Block();
+        addObject(block11,14,252);
+        Block block12 = new Block();
+        addObject(block12,8,270);
+        Block block13 = new Block();
+        addObject(block13,16,203);
+        Block block14 = new Block();
+        addObject(block14,8,162);
+        Block block15 = new Block();
+        addObject(block15,14,132);
+        Block block16 = new Block();
+        addObject(block16,17,98);
+        Block block17 = new Block();
+        addObject(block17,14,72);
+        Block block18 = new Block();
+        addObject(block18,16,29);
+        Block block19 = new Block();
+        addObject(block19,17,10);
+        Block block20 = new Block();
+        addObject(block20,20,36);
+        Block block21 = new Block();
+        addObject(block21,44,12);
+        Block block22 = new Block();
+        addObject(block22,80,14);
+        Block block23 = new Block();
+        addObject(block23,124,16);
+        Block block24 = new Block();
+        addObject(block24,156,17);
+        Block block25 = new Block();
+        addObject(block25,210,17);
+        Block block26 = new Block();
+        addObject(block26,245,15);
+        Block block27 = new Block();
+        addObject(block27,347,14);
+        Block block28 = new Block();
+        addObject(block28,396,14);
+        Block block29 = new Block();
+        addObject(block29,462,12);
+        Block block30 = new Block();
+        addObject(block30,536,12);
+        Block block31 = new Block();
+        addObject(block31,578,12);
+        Block block32 = new Block();
+        addObject(block32,664,21);
+        Block block33 = new Block();
+        addObject(block33,779,27);
+        Block block34 = new Block();
+        addObject(block34,795,23);
+        Block block35 = new Block();
+        addObject(block35,747,14);
+        Block block36 = new Block();
+        addObject(block36,725,9);
+        Block block37 = new Block();
+        addObject(block37,714,9);
+        Block block38 = new Block();
+        addObject(block38,712,9);
+        Block block39 = new Block();
+        addObject(block39,700,9);
+        Block block40 = new Block();
+        addObject(block40,683,7);
+        Block block41 = new Block();
+        addObject(block41,631,5);
+        Block block42 = new Block();
+        addObject(block42,593,5);
+        Block block43 = new Block();
+        addObject(block43,587,5);
+        Block block44 = new Block();
+        addObject(block44,542,3);
+        Block block45 = new Block();
+        addObject(block45,524,3);
+        Block block46 = new Block();
+        addObject(block46,527,1);
+        Block block47 = new Block();
+        addObject(block47,584,11);
+        Block block48 = new Block();
+        addObject(block48,566,11);
+        Block block49 = new Block();
+        addObject(block49,564,11);
+        Block block50 = new Block();
+        addObject(block50,551,11);
+        Block block51 = new Block();
+        addObject(block51,477,11);
+        Block block52 = new Block();
+        addObject(block52,500,11);
+        Block block53 = new Block();
+        addObject(block53,503,11);
+        Block block54 = new Block();
+        addObject(block54,411,4);
+        Block block55 = new Block();
+        addObject(block55,406,4);
+        Block block56 = new Block();
+        addObject(block56,436,8);
+        Block block57 = new Block();
+        addObject(block57,421,12);
+        Block block58 = new Block();
+        addObject(block58,375,16);
+        Block block59 = new Block();
+        addObject(block59,368,16);
+        Block block60 = new Block();
+        addObject(block60,342,12);
+        Block block61 = new Block();
+        addObject(block61,314,7);
+        Block block62 = new Block();
+        addObject(block62,297,7);
+        Block block63 = new Block();
+        addObject(block63,269,7);
+        Block block64 = new Block();
+        addObject(block64,267,7);
+        Block block65 = new Block();
+        addObject(block65,182,9);
+        Block block66 = new Block();
+        addObject(block66,182,9);
+        Block block67 = new Block();
+        addObject(block67,41,585);
+        Block block68 = new Block();
+        addObject(block68,89,594);
+        Block block69 = new Block();
+        addObject(block69,104,595);
+        Block block70 = new Block();
+        addObject(block70,141,589);
+        Block block71 = new Block();
+        addObject(block71,172,586);
+        Block block72 = new Block();
+        addObject(block72,203,585);
+        Block block73 = new Block();
+        addObject(block73,232,583);
+        Block block74 = new Block();
+        addObject(block74,265,586);
+        Block block75 = new Block();
+        addObject(block75,282,586);
+        Block block76 = new Block();
+        addObject(block76,302,586);
+        Block block77 = new Block();
+        addObject(block77,323,588);
+        Block block78 = new Block();
+        addObject(block78,350,593);
+        Block block79 = new Block();
+        addObject(block79,389,596);
+        Block block80 = new Block();
+        addObject(block80,417,596);
+        Block block81 = new Block();
+        addObject(block81,366,591);
+        Block block82 = new Block();
+        addObject(block82,380,585);
+        Block block83 = new Block();
+        addObject(block83,451,585);
+        Block block84 = new Block();
+        addObject(block84,482,592);
+        Block block85 = new Block();
+        addObject(block85,489,592);
+        Block block86 = new Block();
+        addObject(block86,535,594);
+        Block block87 = new Block();
+        addObject(block87,578,594);
+        Block block88 = new Block();
+        addObject(block88,613,597);
+        Block block89 = new Block();
+        addObject(block89,561,586);
+        Block block90 = new Block();
+        addObject(block90,593,584);
+        Block block91 = new Block();
+        addObject(block91,713,588);
+        Block block92 = new Block();
+        addObject(block92,715,588);
+        Block block93 = new Block();
+        addObject(block93,681,583);
+        Block block94 = new Block();
+        addObject(block94,666,586);
+        Block block95 = new Block();
+        addObject(block95,646,586);
+        Block block96 = new Block();
+        addObject(block96,779,585);
+        Block block97 = new Block();
+        addObject(block97,755,586);
+        Cardinal cardinal = new Cardinal();
+        addObject(cardinal,646,429);
+    }
+}
